@@ -46,9 +46,11 @@ ________________________________________
 Overview
 •	Ingests a number of tweets and returns an analysis of shared narratives
 •	Uses BERTopic to process the tweets and to model shared topics/narratives
+
 Features
 •	Finds common narratives shared by at least 15 tweets
 •	Returns a number of analytical files (see folders), including visualizations, sentiment analysis, and timeline analysis
+
 Usage
 •	Set path of input file in code
 •	Run Cassandra
