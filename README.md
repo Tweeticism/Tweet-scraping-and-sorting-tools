@@ -3,6 +3,7 @@ ________________________________________
 Overview
 •	Tweet hydrator, for hydrating tweet IDs without Twitter API. Uses Playwright.
 •	Prioritizes hydration rate over accuracy
+
 Features
 •	High hydration rate, at the risk of clutter and false positives
 •	Supports emojis, and detects media and links
@@ -13,9 +14,11 @@ Features
 •	Headless mode
 •	Dynamic file name detection
 •	Only processes lists of tweet IDs saved in .txt format
+
 Ethical use 
 •	Only hydrates public tweets and public information—ignores protected/private, age-restricted, and deleted tweets, in compliance with data protection/ethics regimes
 •	Throttle function, to comply with Twitter/X Terms of Service
+
 Usage
 •	Put Hydra in the same folder as the input files
 •	Input files should have “tweet_id” in the filename
@@ -28,12 +31,7 @@ Overview
 •	Designed to sort large batches of tweets via keywords
 
 Features
-•	Uses a set of keywords (see attached humanitarian_keywords_and_categories.txt file) to sort a large number of tweets into five humanitarian categories, and to remove unrelated tweets
-o	red_cross
-o	un_agencies
-o	msf_solidarist
-o	faith_based
-o	others (general mentions of humanitarian organizations)
+•	Uses a set of keywords (see attached humanitarian_keywords_and_categories.txt file) to sort a large number of tweets into five humanitarian categories:	red_cross; un_agencies; msf_solidarist;	faith_based; and others (general mentions of humanitarian organizations)
 •	Normalizes character sets, emojis and special characters
 •	Uses tweet IDs to identify and remove duplicates
 •	Processes only .csv files
